@@ -1,0 +1,26 @@
+.question-card {
+    margin: 0;
+    padding: 0;
+    max-width: 75%;
+}
+
+.question {    
+    font-size: 25px;
+    margin-bottom: 3rem;
+}
+
+.answers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 45%;
+    margin-bottom: 1rem;
+    color: #000 !important;
+}
+button:hover {
+    background-color: #d9cdcd;
+    border: 0;
+}
